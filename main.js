@@ -37,10 +37,10 @@ removeBtn.addEventListener("click", (e) => {
 
 
 
-// const message = document.querySelector('#message')
+const message = document.querySelector('#message')
 
-// const output = document.querySelector('#output');
+const output = document.querySelector('#output');
 
-// message.addEventListener("input" , ()=>{
-//     output.innerHTML = message.value;
-// })
+message.addEventListener("input" , ()=>{
+    output.innerHTML = message.value;
+})
