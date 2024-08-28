@@ -34,3 +34,13 @@ removeBtn.addEventListener("click", (e) => {
     }
   }
 });
+
+
+
+// const message = document.querySelector('#message')
+
+// const output = document.querySelector('#output');
+
+// message.addEventListener("input" , ()=>{
+//     output.innerHTML = message.value;
+// })
