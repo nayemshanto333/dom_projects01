@@ -41,6 +41,6 @@ const message = document.querySelector('#message')
 
 const output = document.querySelector('#output');
 
-message.addEventListener("input" , ()=>{
+message.addEventListener("change" , ()=>{
     output.innerHTML = message.value;
 })
